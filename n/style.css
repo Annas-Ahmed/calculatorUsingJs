@@ -1,75 +1,59 @@
-/* button{
-    background-color: white;
-    border: 1px, solid, black;
-    color: black;
-    padding: 15px 32px;
-} 
-  
-
-table{
-    border: 1px;
-    width: 100%;
-} */
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-table{
+table {
     text-align: center;
     width: 100%;
 }
-.inputClass{
+
+.inputClass {
     text-align: center;
     color: white;
     background-color: rgb(31, 30, 30);
-    padding: 40px  33px;
+    padding: 40px 33px;
     border: 6px solid black;
     border-radius: 10px;
     width: 100%;
-
 }
 
-.numbers{
-    border-radius:20px;
+.numbers {
+    border-radius: 20px;
     padding: 20px 25px;
     background-color: whitesmoke;
     /* margin: 10px; */
     border: 6px solid white;
-
 }
-.operations{
-    border-radius:20px;
-    padding: 20px  20px;
+
+.operations {
+    border-radius: 20px;
+    padding: 20px 20px;
     background-color: lightgray;
     border: 6px solid white;
-
 }
 
-.inputDiv{
- /* margin: 10px 0 0 0; */
- padding: 5px 5px 0 5px;
- width: 100% ;
-}
-.tableDiv{
+.inputDiv {
+    padding: 5px 5px 0 5px;
     width: 100%;
-    margin: 10px 0 0 0 ;
 }
-.trClass{
+
+.tableDiv {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.trClass {
     border: 6px solid white;
 }
 
-main{
+main {
     border: 1px solid gray;
     width: 25%;
-    /* display: flex; */
     margin: 10px auto;
-    /* padding: 20px; */
 }
 
-body{
-    padding:10px;
+body {
+    padding: 10px;
 }
